@@ -1,17 +1,13 @@
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
-import './App.css'
-
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-      <div>
-        <button className='btn btn-primary'>click here</button>
-        <h1 className='text-red-200'>hello world</h1>
-      </div>
-    </>
-  )
-}
+    <div>
+     <NavBar/>
+     <Footer/>
+    </div>
+  );
+};
 
-export default App
+export default App;
