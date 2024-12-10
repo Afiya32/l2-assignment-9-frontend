@@ -3,6 +3,8 @@ import App from "../src/App"
 import Home from "./pages/home";
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
+import Register from "./pages/Register";
+import ProductDetails from "./pages/ProductDetails";
 
 
 const router = createBrowserRouter([
@@ -20,8 +22,15 @@ const router = createBrowserRouter([
             },{
                 path:"/about",
                 element:<AboutPage/>
-            }
+            }, {
+                path: "/product/:id", 
+                element: <ProductDetails />,
+              }
         ]
+    },
+    {
+        path:"/register",
+        element:<Register/>
     }
 ])
 export default router;

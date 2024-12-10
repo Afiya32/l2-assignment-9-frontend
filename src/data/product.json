@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Mechanical Keyboard",
+      "price": 100,
+      "category": "Electronics",
+      "image": "https://via.placeholder.com/150",
+      "isFlashSale": true
+    },
+    {
+      "id": 2,
+      "name": "Gaming Mouse",
+      "price": 50,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150",
+      "isFlashSale": false
+    },
+    {
+      "id": 3,
+      "name": "Laptop Stand",
+      "price": 30,
+      "category": "Office Supplies",
+      "image": "https://via.placeholder.com/150",
+      "isFlashSale": true
+    }
+  ]
+  

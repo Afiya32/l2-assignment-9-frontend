@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Hub",
+      "logo": "https://via.placeholder.com/150",
+      "description": "Your one-stop shop for all things tech!",
+      "vendor": {
+        "id": 10,
+        "name": "John Doe"
+      },
+      "products": [
+        {
+          "id": 101,
+          "name": "Wireless Mouse",
+          "price": 25.99,
+          "category": "Accessories",
+          "inventory": 100,
+          "description": "Ergonomic wireless mouse with long battery life.",
+          "images": ["https://via.placeholder.com/200"],
+          "discount": 0.1
+        },
+        {
+          "id": 102,
+          "name": "Mechanical mouse",
+          "price": 75.99,
+          "category": "Keyboards",
+          "inventory": 50,
+          "description": "RGB Mechanical Keyboard for gaming and productivity.",
+          "images": ["https://via.placeholder.com/200"],
+          "discount": 0.15
+        }
+      ],
+      "followerCount": 125,
+      "isFollowed": false
+    },
+    {
+      "id": 2,
+      "name": "Tech Hub",
+      "logo": "https://via.placeholder.com/150",
+      "description": "Your one-stop shop for all things tech!",
+      "vendor": {
+        "id": 10,
+        "name": "sunny leone"
+      },
+      "products": [
+        {
+          "id": 103,
+          "name": "Wireless keyboard",
+          "price": 25.99,
+          "category": "Accessories",
+          "inventory": 100,
+          "description": "Ergonomic wireless keyboard with long battery life.",
+          "images": ["https://via.placeholder.com/200"],
+          "discount": 0.1
+        },
+        {
+          "id": 105,
+          "name": "Mechanical Keyboard",
+          "price": 75.99,
+          "category": "Keyboards",
+          "inventory": 50,
+          "description": "RGB Mechanical Keyboard for gaming and productivity.",
+          "images": ["https://via.placeholder.com/200"],
+          "discount": 0.15
+        }
+      ],
+      "followerCount": 225,
+      "isFollowed": false
+    },{
+        "id": 3,
+        "name": "Tech Haven",
+        "logo": "https://via.placeholder.com/150",
+        "description": "Your go-to store for all gadgets.",
+        "vendor": {
+          "id": 101,
+          "name": "John Doe"
+        },
+        "products": [
+          { "id": 1, "name": "Laptop", "price": 1200 },
+          { "id": 2, "name": "Smartphone", "price": 800 }
+        ],
+        "followers": 150
+      },
+      {
+        "id": 7,
+        "name": "Fashion Fiesta",
+        "logo": "https://via.placeholder.com/150",
+        "description": "Trendy clothes for every season.",
+        "vendor": {
+          "id": 102,
+          "name": "Jane Smith"
+        },
+        "products": [
+          { "id": 3, "name": "Summer Dress", "price": 60 },
+          { "id": 4, "name": "Winter Jacket", "price": 150 }
+        ],
+        "followers": 320
+      }
+  ]
+  
