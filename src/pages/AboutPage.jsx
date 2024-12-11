@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
+import Swal from 'sweetalert2';
 // import axios from "axios";
 import localData from "../data/shop.json";
+import { useNavigate } from "react-router-dom";
 
 const AboutPage = () => {
   const [shops, setShops] = useState([]);
   const [loading, setLoading] = useState(true);
-  
+  const navigate =useNavigate();
 
   useEffect(() => {
     // Fetch shop data
@@ -37,8 +39,12 @@ const AboutPage = () => {
   };
 
   const handleAddToCart = (product) => {
-    alert(`${product.name} added to cart!`);
-    // Add cart functionality here
+    Swal.fire(
+      'Added to Cart',
+      `${product.name} has been added to your cart!`,
+      'success'
+    );
+    navigate('/')
   };
 
   if (loading) return <div>Loading...</div>;
